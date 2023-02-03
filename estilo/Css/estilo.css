@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    /*Altera a fonte do site todo*/
 }
 body{
     margin: 0;
@@ -126,8 +127,21 @@ font-size: 21px;
     font-size: 13px;
 }
 
+/*Css do dia e hora de atendimento*/
 .banner3 h2{
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.dias_da_semana{
+ display: flex;
+ flex-direction: column;
+}
+
+.dias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
