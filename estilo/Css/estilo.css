@@ -227,3 +227,32 @@ article .thumbnail_Resumo{
 article a{
     text-decoration: none;
 }
+
+.item_photo{
+    /*background-color: #0079c7;*/
+    margin: 10px;
+    flex:1;
+    min-width: 110px;
+    height: 150px;
+}
+
+aside .widget_corpo{
+    flex-wrap: wrap;
+}
+aside .item_photo img{
+    width: 100%;
+    height: auto;
+}/*Caso der merda usar tirar esse*/
+
+.widget_texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.conteudo_contato{
+    flex-direction: column;
+}
+
+.contato_lateral{
+    border-top: 1px solid #e0e0e0;
+}
