@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    padding-bottom: 300px;
 }
 .flex{
     display: flex;
@@ -25,8 +26,8 @@ header{
 
 .container{
     display: flex;
-    justify-content: space-between;
     width: 990px;
+    justify-content: space-between;
 }
 
 .logo{
@@ -273,4 +274,53 @@ aside .item_photo img{
 
 .contato_lateral a:hover{
     color: #000000;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    display: flex;
+}
+
+.menu1,.menu2,.menu3{
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.menu1{
+    background-color: #39aae1;
+}
+.menu2{
+    background-color: #0079c7;
+}
+.menu3{
+    background-color: #2b4c99;
+}
+
+.footer_area{
+    display: flex;
+    color: white;
+}
+
+.footer_areaitem{
+    flex: 1;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+footer .widget_titulo_texto{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+footer .widget_texto{
+    font-size: 11px;
+    color: #909090;
 }
