@@ -255,4 +255,22 @@ aside .item_photo img{
 
 .contato_lateral{
     border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+
+.contato_lateral p{
+    margin: 20px;
+    color: #dbcab3;
+}
+.contato_lateral p strong{
+    color: #000000;
+}
+
+.contato_lateral a{
+    text-decoration: none;
+    color: #5e56a3;
+}
+
+.contato_lateral a:hover{
+    color: #000000;
 }
